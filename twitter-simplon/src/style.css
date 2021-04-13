@@ -1,0 +1,208 @@
+#root{
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(168, 167, 167) 0%, rgba(228,228,228,1) 100%);
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+.postDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formPost{
+    width: 60%;
+    background-color: white;
+    
+}
+
+.post{
+    height: 150px;
+    width: %;
+}
+
+
+.header-nav{
+    display: flex;
+}
+
+.header-title{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 50%;
+    margin-left: 5rem;
+}
+
+main{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.logoSimplon{
+    width: 15%;
+}
+
+.label{
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.label label {
+    color:  rgba(206,0,51, 0.8);
+    font-size: large;
+    font-weight: bold;
+}
+
+.input{
+    color: black;
+    background-color: rgb(228,228,228);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+
+.card-form{
+    display: flex;
+    width: 30%;
+    height: 60vh;
+    box-shadow: 12px 12px 0px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-head{
+    font-size: x-large;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: rgba(206,0,51, 0.8);
+}
+
+.btn-form{
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+    padding: .4rem;
+    width: 100px;
+    background-color: rgba(206,0,51, 0.8);
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.searchBar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchCard{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-right: 2rem;
+    height: 150px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.cardPicture{
+    width: 20%;
+    background-color: violet;
+    border-radius: 100%;
+}
+
+.right{
+    display: flex;
+    width: 70%;
+    height: 150px;
+}
+
+.divbuttonUser{
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btn-user{
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    background-color: rgba(206,0,51, 0.8);
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.userCard{
+    padding-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    box-shadow: 0px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    height: 55vh;
+}
+
+.information{
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgba(206,0,51, 0.8);
+}
+
+.pictureSide{
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.pictureProfile{
+    width: 100%;
+    height: 250px;
+    border-radius: 100%;
+    background-color: violet;
+}
+
+.infoProfile{
+    padding-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.infoLabel{
+    display: flex;
+}
+
+.btn-pos{
+    display: block;
+}
+
+.control{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
